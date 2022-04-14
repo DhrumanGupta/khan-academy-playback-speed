@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Khan Academy Playback Speed Controller",
+  "description": "Controls the playback speed of your khan academy video",
+  "version": "1.0.0",
+  "author": "Dhruman Gupta",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.khanacademy.org/*",
+        "*://www.youtube-nocookie.com/*"
+      ],
+      "all_frames": true,
+      "js": ["injectedKhanAcademy.js"]
+    }
+  ],
+  "action": {
+    "default_title": "Khan Academy playback speed",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "images/logo_128.png"
+  },
+  "permissions": ["activeTab", "tabs", "storage"]
+}
