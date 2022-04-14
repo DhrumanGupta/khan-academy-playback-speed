@@ -12,7 +12,7 @@ This is only recommended if you would like to edit the code or see what is hapen
 
 - Clone this repository to your local directory: `git clone https://github.com/DhrumanGupta/khan-academy-playback-speed`
 
-- Go to [Chrome's extension page](chrome://extensions) and click the "Add Extension" button.
+- Go to Chrome's extension page (chrome://extensions) and click the "Add Extension" button.
 
 - Click on load unpacked, and choose the folder you just cloned
 
