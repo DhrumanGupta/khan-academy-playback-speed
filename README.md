@@ -4,7 +4,7 @@ This is a chrome browser extension designed to allow a finer control of the play
 
 ## How to install
 
-You can either install from the [chrome web store (to be uploaded)](https://chrome.google.com/) or from this local directory.
+You can either install from the [chrome web store](https://chrome.google.com/webstore/detail/khan-academy-playback-spe/dndcpejlplhllhpagbmpdgchcmcdgnii/) or from this local directory.
 
 ### Installing it localy
 
